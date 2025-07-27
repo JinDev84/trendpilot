@@ -1,0 +1,30 @@
+languageCode = 'ko'
+title = "TrendPilot"
+defaultContentLanguage = "ko"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  description = "실시간 트렌드를 빠르게 전달하는 AI 블로그"
+  author = "JinDev84"
+  ShowReadingTime = true
+  ShowToc = true
+  ShowBreadCrumbs = true
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+[pagination]
+  pagerSize = 10
+
+[languages]
+  [languages.ko]
+    languageName = "한국어"
+    weight = 1
+    contentDir = "content/ko"
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
